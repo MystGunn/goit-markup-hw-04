@@ -4,6 +4,8 @@
   --heading-font-family: "Roboto", sans-serif;
   --text-font-family: "Raleway", sans-serif;
   --background-color-studio: #2e2f42;
+  --icon-background-color: #4d5ae5;
+  --solutions-background: #f4f4fd;
 }
 
 .navigation {
@@ -49,7 +51,9 @@ a:hover {
 
 .all-solutions {
   background: linear-gradient(rgba(46, 47, 66, 0.5), rgba(46, 47, 66, 0.5)),
-    url("./images/people-office.jpg");
+    url("./images/people-office.png");
+  width: 1440px;
+  margin-left: 15px;
   height: 80vh;
 }
 
@@ -139,14 +143,15 @@ a:hover {
 
 .list-container {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .section-container {
   display: flex;
   justify-content: center;
   padding: 94px 0;
+  width: 1440px;
 }
 
 .header-container {
@@ -209,4 +214,66 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.icons-list .icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.icons-list .icon {
+  width: 40px;
+  height: 40px;
+  background: var(--icon-background-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solutions-list {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--solutions-background);
+}
+
+.solution {
+  width: 64px;
+  height: 64px;
+}
+
+.customers-header {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-class {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+}
+
+.customers-list {
+  width: 168px;
+  height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 16px 32px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
