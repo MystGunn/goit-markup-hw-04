@@ -280,8 +280,25 @@ a:hover {
   border-color: #8e8f99;
 }
 
-.social-media {
+.media-list {
   display: flex;
   justify-content: center;
-  align-items: top;
+  gap: 24px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.media-list .icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.media-list .icon {
+  width: 40px;
+  height: 40px;
+  background: var(--icon-background-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
