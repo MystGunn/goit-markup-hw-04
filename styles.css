@@ -143,7 +143,8 @@ a:hover {
 
 .list-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -270,6 +271,7 @@ a:hover {
   border-style: solid;
   border-radius: 10px;
   padding: 16px 32px;
+  border-color: #8e8f99;
 }
 
 .social-media {
