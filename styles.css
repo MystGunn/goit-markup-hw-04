@@ -143,12 +143,19 @@ a:hover {
 
 .list-container {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.portofolio-container {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
 
-.list-container :hover {
+.portofolio-container :hover {
   cursor: pointer;
   box-shadow: 5px 5px grey;
 }
@@ -189,6 +196,7 @@ a:hover {
 .button-list:hover {
   color: #f4f4fd;
   background-color: var(--link-color-hover);
+  box-shadow: 5px 5px grey;
 }
 
 .card-borders {
