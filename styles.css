@@ -302,11 +302,13 @@ a:hover {
   border-radius: 10px;
   padding: 16px 32px;
   border-color: #8e8f99;
+}
+
+.customer {
   fill: #8e8f99;
 }
 
-.customers-list :hover {
-  box-shadow: 2px 2px;
+.customer :hover {
   color: var(--link-color-hover);
   cursor: pointer;
 }
