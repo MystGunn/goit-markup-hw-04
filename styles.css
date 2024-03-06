@@ -309,8 +309,7 @@ a:hover {
 }
 
 .customer :hover {
-  box-shadow: 5px 5px;
-  fill: red;
+  fill: var(--link-color-hover);
   cursor: pointer;
 }
 
